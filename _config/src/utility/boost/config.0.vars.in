@@ -1,0 +1,35 @@
+#%% version: 1
+
+# FORMAT:
+#   [<attributes>] <variable>[:[<class_name>]]=<value>
+#
+# <attributes>:           Variable space separated attributes: once | export | upath
+# <variable>:             Variable name corresponding to the regex: [_a-zA-Z][_a-zA-Z0-9]*
+# <class_name>:           class variant name: OSWIN | OSUNIX | BAT | SH
+#   OSWIN:                Apply on Windows system including cygwin/mingw/msys subsystems.
+#   OSUNIX:               Apply on Unix/Linux systems excluding cygwin/mingw/msys subsystems.
+#   BAT:                  Apply on Windows system when this file has loaded from the Windows batch script loader.
+#   SH:                   Apply on any system when this file has loaded from the Bash shell script loader.
+#
+# <value>:                Value with substitution support: `%<variable>%`.
+#                         Can start by the `"` quote character, but two quotes does remove only when exist on both ends of a value.
+#
+
+BUILD_SOURCES_DIR                         =1_81_0_release
+BUILD_OUTPUT_DIR                          =%BUILD_SOURCES_DIR%
+
+TOOLSET                                   =msvc-14.1
+#TOOLSET                                  =mingw_gcc
+#TOOLSET                                  =cygwin_gcc
+#TOOLSET                                  =msys_gcc
+
+VARIANT                                   =release,debug
+ARCHITECTURE                              =x86
+ADDRESS_MODEL                             =32
+LINK_TYPE                                 =shared
+RUNTIME_LINK                              =shared
+THREADING                                 =multi
+
+STAGE_DIR                                 =stage
+
+BOOST_LIB_CONFIG_ARGS                     =debug-symbols=on "--build-dir=__build-%TOOLSET%-%ADDRESS_MODEL%"

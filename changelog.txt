@@ -1,0 +1,29 @@
+2023.04.04:
+* new: build scripts reimplementation
+* changed: _scripts/boost: switched to 1.81.0 release
+
+2022.03.01:
+* fixed: build/boost: fixup for correct cmake detection under x64 platform
+
+2022.03.01:
+* changed: __init__: switched to lite parse of configuration files
+* changed: _config: cleanup
+
+2021.11.09:
+* changed: deploy: `environment.vars` file moved into `tacklelib` project as a 3dparty root path always dependent on a library version and so must be owned by the end project has using particular 3dparty library versions
+* changed: README_EN.txt: readme update
+
+2021.11.09:
+* new: deploy: `environment.vars` as example for the 3dparty directory
+* changed: README_EN.txt: readme update
+
+2021.11.08:
+* changed: build/boost/01_preconfigure.bat: improvements for paths longer than ~260 characters
+* changed: build/boost/README_EN.txt: readme update
+* changed: README_EN.txt: readme update
+
+2021.11.07:
+* new: changelog file
+* new: readme file
+* changed: reworked build scripts
+* changed: moved the rest not used scripts into `_archive` subdirectory

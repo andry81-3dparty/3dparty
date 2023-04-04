@@ -1,0 +1,359 @@
+repositories:
+
+  # arc/
+
+  ## libarchive/
+
+  src/arc/libarchive/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/libarchive
+    version:          master
+
+  src/arc/libarchive/3_4_2_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/libarchive
+    version:          3_4_2_release
+
+  ## xzutils/
+
+  src/arc/xzutils/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/xzutils
+    version:          master
+
+  src/arc/xzutils/5_2_5_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/xzutils
+    version:          5_2_5_release
+
+  # gui/
+
+  ## qcustomplot/
+
+  src/gui/qcustomplot/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/qcustomplot
+    version:          master
+
+  src/gui/qcustomplot/2_1_1_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/qcustomplot
+    version:          2_1_1_release
+
+  ## qwt/
+
+  src/gui/qwt/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/qwt
+    version:          master
+
+  src/gui/qwt/6_1_4_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/qwt
+    version:          6_1_4_release
+
+  ## qwtpolar/
+
+  src/gui/qwtpolar/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/qwtpolar
+    version:          master
+
+  src/gui/qwtpolar/1_2_0_20160403:
+    type:             git
+    url:              https://github.com/andry81-3dparty/qwtpolar
+    version:          '1_2_0_20160403'
+
+  ## wxwidgets/
+
+  src/gui/wxwidgets/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/wxwidgets
+    version:          master
+
+  src/gui/wxwidgets/3_1_3_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/wxwidgets
+    version:          3_1_3_release
+
+  # log/
+
+  ## p7client/
+
+  src/log/p7client/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/p7client
+    version:          master
+
+  src/log/p7client/5_5_0_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/p7client
+    version:          5_5_0_release
+
+  src/log/p7client/5_3_0_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/p7client
+    version:          5_3_0_release
+
+  # math/
+
+  ## qd/
+
+  src/math/qd/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/qd
+    version:          master
+
+  src/math/qd/2_3_22_20181030:
+    type:             git
+    url:              https://github.com/andry81-3dparty/qd
+    version:          '2_3_22_20181030'
+
+  # sat/
+
+  ## orbittools/
+
+  src/sat/orbittools/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/orbittools
+    version:          master
+
+  src/sat/orbittools/1_4_0_20170422:
+    type:             git
+    url:              https://github.com/andry81-3dparty/orbittools
+    version:          '1_4_0_20170422'
+
+  src/sat/orbittools/1_4_0_20170422-p1:
+    type:             git
+    url:              https://github.com/andry81-3dparty/orbittools
+    version:          1_4_0_20170422-p1
+
+  ## sgp4/
+
+  src/sat/sgp4/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/sgp4
+    version:          master
+
+  src/sat/sgp4/20191207:
+    type:             git
+    url:              https://github.com/andry81-3dparty/sgp4
+    version:          20191207
+
+  src/sat/sgp4/20191207-p1:
+    type:             git
+    url:              https://github.com/andry81-3dparty/sgp4
+    version:          20191207-p1
+
+  # test/
+
+  ## googletest/
+
+  src/test/googletest/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/googletest
+    version:          master
+
+  src/test/googletest/1_10_0_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/googletest
+    version:          1_10_0_release
+
+  # tools/
+
+  ## external-tools--cmake/
+
+  src/tools/external-tools--cmake/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--cmake
+    version:          master
+
+  src/tools/external-tools--cmake/3_14_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--cmake
+    version:          3_14_x
+
+  src/tools/external-tools--cmake/3_15_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--cmake
+    version:          3_15_x
+
+  ## external-tools--python/
+
+  src/tools/external-tools--python/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--python
+    version:          master
+
+  src/tools/external-tools--python/3_6_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--python
+    version:          3_6_x
+
+  ## external-tools--svn/
+
+  src/tools/external-tools--svn/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          master
+
+  src/tools/external-tools--svn/asf/1_8_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          asf/1_8_x
+
+  src/tools/external-tools--svn/asf/1_7_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          asf/1_7_x
+
+  src/tools/external-tools--svn/tortoisesvn/1_9_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          tortoisesvn/1_9_x
+
+  src/tools/external-tools--svn/tortoisesvn/1_8_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          tortoisesvn/1_8_x
+
+  src/tools/external-tools--svn/tortoisesvn/1_7_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          tortoisesvn/1_7_x
+
+  src/tools/external-tools--svn/collabnet/1_9_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          collabnet/1_9_x
+
+  src/tools/external-tools--svn/collabnet/1_8_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          collabnet/1_8_x
+
+  src/tools/external-tools--svn/collabnet/1_7_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          collabnet/1_7_x
+
+  src/tools/external-tools--svn/sliksvn/1_9_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          sliksvn/1_9_x
+
+  src/tools/external-tools--svn/sliksvn/1_8_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          sliksvn/1_8_x
+
+  src/tools/external-tools--svn/sliksvn/1_7_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          sliksvn/1_7_x
+
+  src/tools/external-tools--svn/cygwin/1_9_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          cygwin/1_9_x
+
+  src/tools/external-tools--svn/cygwin/1_8_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          cygwin/1_8_x
+
+  src/tools/external-tools--svn/cygwin/1_7_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          cygwin/1_7_x
+
+  src/tools/external-tools--svn/visualsvn/1_9_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--svn
+    version:          visualsvn/1_9_x
+
+  ## external-tools--winsdk/
+
+  src/tools/external-tools--winsdk/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--winsdk
+    version:          master
+
+  src/tools/external-tools--winsdk/10_0_x:
+    type:             git
+    url:              https://github.com/andry81-3dparty/external-tools--winsdk
+    version:          10_0_x
+
+  # utility/
+
+  ## boost/
+
+  src/utility/boost/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/boost
+    version:          master
+
+  src/utility/boost/1_81_0_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/boost
+    version:          1_81_0_release
+
+  src/utility/boost/1_72_0_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/boost
+    version:          1_72_0_release
+
+  ## fmt/
+
+  src/utility/fmt/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/fmt
+    version:          master
+
+  src/utility/fmt/6_2_0_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/fmt
+    version:          6_2_0_release
+
+  ## pystring/
+
+  src/utility/pystring/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/pystring
+    version:          master
+
+  src/utility/pystring/1_1_3_20200204:
+    type:             git
+    url:              https://github.com/andry81-3dparty/pystring
+    version:          '1_1_3_20200204'
+
+  ## rapidxml/
+
+  src/utility/rapidxml/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/rapidxml
+    version:          master
+
+  src/utility/rapidxml/1_13_0_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/rapidxml
+    version:          1_13_0_release
+
+  ## rapidyaml/
+
+  src/utility/rapidyaml/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/rapidyaml
+    version:          master
+
+  src/utility/rapidyaml/0_1_0_20201103-3640527:
+    type:             git
+    url:              https://github.com/andry81-3dparty/rapidyaml
+    version:          0_1_0_20201103-3640527
+
+  ## tacklelib/
+
+  src/utility/tacklelib/master:
+    type:             git
+    url:              https://github.com/andry81/tacklelib
+    version:          master
