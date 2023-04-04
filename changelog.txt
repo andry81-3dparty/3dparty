@@ -1,4 +1,8 @@
 2023.04.04:
+* changed: _config: configuration files update
+* changed: README_EN.txt: readme update
+
+2023.04.04:
 * new: build scripts reimplementation
 * changed: _scripts/boost: switched to 1.81.0 release
 

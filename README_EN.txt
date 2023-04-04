@@ -1,5 +1,5 @@
 * README_EN.txt
-* 2023.03.29
+* 2023.04.04
 * 3dparty
 
 1. DESCRIPTION
@@ -217,7 +217,7 @@ Example:
 4. PREREQUISITES
 -------------------------------------------------------------------------------
 
-Currently used these set of OS platforms, compilers, externals, IDE's and
+Currently used these set of OS platforms, externals, compilers, IDE's and
 patches to run with or from:
 
 1. OS platforms:
@@ -234,14 +234,14 @@ patches to run with or from:
 
   * Linux Mint 18.3 x64 (GCC target)
 
-2. C++11 compilers:
+2. Externals:
+
+  * `contools`
+
+3. C++11 compilers:
 
   * (primary) Microsoft Visual C++ 2015 Update 3 or Microsoft Visual C++ 2017
   * (secondary) GCC 5.4+
-
-3. Externals:
-
-  * `contools`
 
 4. IDE's:
 

@@ -56,10 +56,17 @@
 # CMAKE_TOP_PACKAGE_SOURCE_DIR:                 Top package source directory.
 #
 
-# libraries with binaries built for a single platform
+# Libraries with sources or/and binaries built externally.
+#
+# CAUTION:
+#   Variables must be defined externally, here is left as an example!
+#
+#global path exist _3DPARTY_ROOT:WIN="d:/_3dparty"
+#global path exist _3DPARTY_ROOT:UNIX="/home/opt/_3dparty"
+#
+#global path exist _3DPARTY_BUILD_SOURCES_ROOT="$/{_3DPARTY_ROOT}/src"
+#global path exist _3DPARTY_BUILD_OUTPUT_ROOT="$/{_3DPARTY_ROOT}/build"
 
-global path exist _3DPARTY_BUILD_SOURCES_ROOT="$/{CMAKE_CURRENT_LOAD_VARS_FILE_DIR}/src"
-global path exist _3DPARTY_BUILD_OUTPUT_ROOT="$/{CMAKE_CURRENT_LOAD_VARS_FILE_DIR}/build"
 
 #global CMAKE_LIBRARY_PATH:UNIX="/usr/lib/i386-linux-gnu"
 
