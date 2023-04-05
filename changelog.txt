@@ -1,3 +1,7 @@
+2023.04.05:
+* new: README.md: added markdown readme file
+* new: license.txt: added license file
+
 2023.04.04:
 * changed: _config: configuration files update
 * changed: README_EN.txt: readme update
