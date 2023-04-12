@@ -1,4 +1,7 @@
 2023.04.12:
+* new: .src: added `protobuf` library version
+
+2023.04.12:
 * changed: tools/dump-externals.bat: script improvements
 
 2023.04.12:

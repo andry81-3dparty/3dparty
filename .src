@@ -109,6 +109,20 @@ repositories:
     url:              https://github.com/andry81-3dparty/qd
     version:          '2_3_22_20181030'
 
+  # net/
+
+  ## protobuf/
+
+  src/net/protobuf/master:
+    type:             git
+    url:              https://github.com/andry81-3dparty/protobuf
+    version:          master
+
+  src/net/protobuf/3_5_1_release:
+    type:             git
+    url:              https://github.com/andry81-3dparty/protobuf
+    version:          3_5_1_release
+
   # sat/
 
   ## orbittools/

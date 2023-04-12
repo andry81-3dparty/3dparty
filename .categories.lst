@@ -4,6 +4,7 @@ arc
 gui
 log
 math
+net
 sat
 test
 tools
