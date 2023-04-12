@@ -80,6 +80,9 @@ rem if %HAS_WITH_PYTHON% EQU 0 (
 rem   set BOOST_LIB_CONFIG_ARGS=%BOOST_LIB_CONFIG_ARGS% --without-python
 rem )
 
+rem register all environment variables
+set 2>nul > "%INIT_VARS_FILE1%"
+
 call :CMD pushd "%%BUILD_OUTPUT_ROOT%%" && (
   call :CMD "%%BUILD_OUTPUT_ROOT%%/b2.exe" "-sBOOST_ROOT=%%BUILD_OUTPUT_ROOT%%" %%BOOST_BUILD_CMD_LINE%% %%BOOST_LIB_CONFIG_ARGS%% stage %%3 %%4 %%5 %%6 %%7 %%8 %%9
   call :CMD popd

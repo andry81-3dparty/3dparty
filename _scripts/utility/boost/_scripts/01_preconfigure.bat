@@ -29,6 +29,9 @@ set "EMPTY_DIR_TMP=%SCRIPT_TEMP_CURRENT_DIR%\emptydir"
 
 call "%%_3DPARTY_TOOLS%%/reg-env.bat" || exit /b
 
+rem register all environment variables
+set 2>nul > "%INIT_VARS_FILE1%"
+
 call :CREATE_DIR_LINK "%%BUILD_OUTPUT_ROOT%%\boost"                 "%%BUILD_SOURCES_ROOT%%\boost" || exit /b
 call :CREATE_DIR_LINK "%%BUILD_OUTPUT_ROOT%%\libs"                  "%%BUILD_SOURCES_ROOT%%\libs" || exit /b
 call :CREATE_DIR_LINK "%%BUILD_OUTPUT_ROOT%%\tools"                 "%%BUILD_SOURCES_ROOT%%\tools" || exit /b

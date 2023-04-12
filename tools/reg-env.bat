@@ -4,8 +4,6 @@ if /i "%_3DPARTY_PROJECT_ROOT_INIT0_DIR%" == "%~dp0" exit /b 0
 
 call "%%~dp0__init__\__init__.bat" || exit /b
 
-set "_3DPARTY_PROJECT_ROOT_INIT0_DIR=%~dp0"
-
 for %%i in (_3DPARTY_BUILD_SOURCES_ROOT _3DPARTY_BUILD_OUTPUT_ROOT) do (
   if not defined %%i (
     echo.%~nx0: error: `%%i` variable is not defined.
@@ -71,11 +69,14 @@ echo.BUILD_SOURCES_ROOT:  "%BUILD_SOURCES_ROOT%"
 echo.BUILD_OUTPUT_ROOT:   "%BUILD_OUTPUT_ROOT%"
 echo.
 
+call "%%_3DPARTY_TOOLS%%\build\gen-path-var.bat" || exit /b
 call "%%_3DPARTY_TOOLS%%\build\reg-msvc.bat" || exit /b
 call "%%_3DPARTY_TOOLS%%\build\reg-jam.bat" || exit /b
 call "%%_3DPARTY_TOOLS%%\build\reg-cmake.bat" || exit /b
 call "%%_3DPARTY_TOOLS%%\build\reg-qmake.bat" || exit /b
-call "%%_3DPARTY_TOOLS%%\build\gen-path-var.bat" || exit /b
+
+call "%%CONTOOLS_ROOT%%\std\echo_path_var.bat" PATH "PATH: `" `
+echo.
 
 if not exist "%BUILD_SOURCES_ROOT%\" (
   echo.%~nx0: error: BUILD_SOURCES_ROOT does not exist: "%BUILD_SOURCES_ROOT%".

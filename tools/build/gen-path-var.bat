@@ -60,9 +60,6 @@ if exist "%WINDOWS_KIT_BIN_ROOT%\" (
 
 :IGNORE_PATH_UPDATE
 
-call "%%CONTOOLS_ROOT%%\std\echo_path_var.bat" PATH "PATH: `" `
-echo.
-
 rem return variables
 (
   rem safe set

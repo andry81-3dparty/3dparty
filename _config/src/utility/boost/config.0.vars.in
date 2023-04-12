@@ -23,6 +23,8 @@ TOOLSET                                   =msvc-14.1
 #TOOLSET                                  =cygwin_gcc
 #TOOLSET                                  =msys_gcc
 
+#MSVC_VCVARSALL_CMDLINE                   =x86_amd64 -vcvars_ver=14.1
+
 VARIANT                                   =release,debug
 ARCHITECTURE                              =x86
 ADDRESS_MODEL                             =32

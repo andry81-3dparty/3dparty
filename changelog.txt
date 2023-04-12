@@ -1,3 +1,8 @@
+2023.04.12:
+* fixed: _scripts: .common, utility/boost: execution fixup
+* changed: tools/build/reg-msvc.bat: msvc detection rewrited
+* changed: _scripts/utility/boost/README_EN.txt: readme update
+
 2023.04.05:
 * new: README.md: added markdown readme file
 * new: license.txt: added license file

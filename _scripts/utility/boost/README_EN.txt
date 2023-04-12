@@ -2,9 +2,9 @@
 * boost
 
 1. DESCRIPTION
-3. CONFIGURE
-4. BUILD
-5. CLEANUP
+2. CONFIGURE
+3. BUILD
+4. CLEANUP
 
 -------------------------------------------------------------------------------
 1. DESCRIPTION
@@ -21,22 +21,42 @@ NOTE:
 
 1. run `_scripts/01_preconfigure.bat`
 
-2. edit `<root>/_out/config/3dparty/config.*.vars`:
+  NOTE:
+    To begin edit the following configuration files you can just run
+    `__init__/__init__.bat` script.
 
-3. edit `<root>/_out/config/3dparty/src/utility/boost/config.*.vars`
+2. edit configuration files:
 
-4. If previous `_scripts/01_preconfigure.bat` has exited with error, then run
-   again.
+  * `<root>/_out/config/3dparty/config.*.vars`
+  * `<root>/_out/config/3dparty/src/utility/boost/config.*.vars`
 
-5. run `bootstrap.bat` from the BUILD_OUTPUT_ROOT directory
+  NOTE:
+    If previous `_scripts/01_preconfigure.bat` has exited with error, then run
+    again.
+
+3. run `_scripts/02_configure.bat`
+
+  NOTE:
+    You can directly run `bootstrap.bat` from directory in the
+    `BUILD_OUTPUT_ROOT` variable.
+
+  NOTE:
+    To reconfigure remove `%BUILD_SOURCES_ROOT%\b2.exe` file.
 
 -------------------------------------------------------------------------------
 3. BUILD
 -------------------------------------------------------------------------------
 
-1. run `_scripts/02_build.bat`
+1. run `_scripts/03_build.bat`
 
 -------------------------------------------------------------------------------
 4. CLEANUP
 -------------------------------------------------------------------------------
-Remove respective subdirectory from the `_3DPARTY_BUILD_OUTPUT_ROOT` variable.
+
+1. Remove respective subdirectory from the `BUILD_OUTPUT_ROOT`
+   variable or remove entire `_out` directory.
+
+2. Reset directory from the `BUILD_SOURCES_ROOT` variable.
+
+NOTE:
+  Search variables in the `.log` directory in `init.*.vars` files.
